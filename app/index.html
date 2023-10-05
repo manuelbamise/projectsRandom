@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>Todo List</h1>
+        
+      <div class="errorMessage">Enter a value first</div>
+      <input type="text" id="inputText" placeholder="inputText here"/>
+     <div class="btns">
+        <button id="reloadPage">
+            <i class="fa-solid fa-repeat"></i>
+        </button>
+        <button type="submit" id="submitBtn" >Submit Text</button>
+        <button id="deleteAll" class="deleteBtn">
+            <i class="fa-solid fa-trash"></i>
+        </button>
+     </div>
+    </div>
+      <div id="displayText" style="margin-top: 15px"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
